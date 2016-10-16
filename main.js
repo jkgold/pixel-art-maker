@@ -1,3 +1,9 @@
+var newDiv = document.createElement('section');
+newDiv.innerHTML = "Yo!"
+var canvas = document.getElementById('canvas');
+canvas.appendChild(newDiv);
+
+
 // window.addEventListener('click', function() {
 //   alert("Yo mama's got a glass eye with a fish in it!")
 // });
